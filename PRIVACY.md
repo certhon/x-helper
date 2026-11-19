@@ -4,9 +4,9 @@
 
 ## English
 
-Helper for X (Chrome extension) · Last updated: November 17, 2026
+X Helper (Chrome extension) · Last updated: November 17, 2026
 
-Helper for X is an independent browser extension. It is not affiliated with, endorsed by, or sponsored by X Corp.
+X Helper is an independent browser extension. It is not affiliated with, endorsed by, or sponsored by X Corp.
 
 ### What the extension does
 
@@ -46,9 +46,9 @@ If this policy changes, the updated version will be posted here with a new date.
 
 ## 中文
 
-X 助手（Helper for X，Chrome 插件）· 最后更新：2026 年 11 月 17 日
+X Helper（Chrome 插件）· 最后更新：2026 年 11 月 17 日
 
-X 助手是独立开发的浏览器插件，与 X Corp. 没有关联，也未获得其认可或赞助。
+X Helper 是独立开发的浏览器插件，与 X Corp. 没有关联，也未获得其认可或赞助。
 
 ### 插件做什么
 

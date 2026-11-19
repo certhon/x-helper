@@ -1,4 +1,4 @@
-# Helper for X
+# X Helper
 
 Chrome extension that shows which accounts you follow on X don't follow you back.
 
@@ -25,4 +25,4 @@ Install: unzip the release file, open `chrome://extensions`, turn on Developer m
 
 Screenshots use made-up demo accounts. 截图中的账号均为虚构的演示数据。
 
-Helper for X is an independent extension and is not affiliated with X Corp.
+X Helper is an independent extension and is not affiliated with X Corp.
