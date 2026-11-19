@@ -2,6 +2,8 @@
 
 Chrome extension that shows which accounts you follow on X don't follow you back, and can unfollow them for you at a slow, steady pace.
 
+X Helper does not collect your X data. All of it stays on your own device. X 助手不收集你的 X 数据，所有 X 数据都只保存在你的本机。
+
 **Download:** [latest release](https://github.com/certhon/x-helper/releases/latest) · **Privacy policy:** [PRIVACY.md](PRIVACY.md) · **Author:** [@certhon520 on X](https://x.com/certhon520)
 
 Install: unzip the release file, open `chrome://extensions`, turn on Developer mode, click **Load unpacked**, and choose the unzipped folder.
@@ -15,7 +17,7 @@ Install: unzip the release file, open `chrome://extensions`, turn on Developer m
 - Auto follow: follow people from another account's followers or following list, with a follower range and a limit.
 - Slow pacing: at least 3 seconds between steps, rests between batches, a daily limit. Pauses by itself when X rate-limits or asks for verification.
 - A floating progress panel on x.com with Pause, Resume and Stop. History of every follow and unfollow, exportable as CSV.
-- Your data stays in your browser. The only thing sent out is an anonymous usage count (random install ID, event name, version), see [PRIVACY.md](PRIVACY.md).
+- **Does not collect your X data.** Your following list, account details, marks and history stay on your device and are never uploaded. The only thing sent out is an anonymous usage count (random install ID, event name, version, language) with no X data in it. See [PRIVACY.md](PRIVACY.md).
 
 Aggressive bulk following or unfollowing is against X's rules and can get an account limited. The defaults are slow; use them responsibly.
 

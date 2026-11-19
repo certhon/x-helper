@@ -8,11 +8,15 @@ X Helper (Chrome extension) · Last updated: November 19, 2026
 
 X Helper is an independent browser extension. It is not affiliated with, endorsed by, or sponsored by X Corp.
 
+**X Helper does not collect your X data.** Everything the extension reads from X and everything it records is stored only on your own device. None of it is uploaded to the developer or anyone else.
+
 ### What the extension does
 
 It shows which accounts you follow on X (x.com) don't follow you back. When you start a task, it can also follow or unfollow accounts on x.com for you, at a slow pace. It runs only on x.com pages.
 
-### Data the extension reads
+### Data the extension reads (on your device only)
+
+The extension reads the data below inside your browser so it can work. It stays on your device and is never sent to the developer.
 
 When you start a scan, the extension reads the following information from your own following list, as loaded by x.com in your browser while you are logged in:
 
@@ -69,11 +73,15 @@ X 助手（X Helper，Chrome 插件）· 最后更新：2026 年 11 月 19 日
 
 X 助手是独立开发的浏览器插件，与 X Corp. 没有关联，也未获得其认可或赞助。
 
+**X 助手不收集你的 X 数据。** 插件从 X 读到的内容、插件记录的内容，都只保存在你自己的设备上，不会上传给开发者或任何其他人。
+
 ### 插件做什么
 
 插件帮你查看在 X（x.com）上你关注的人里，有哪些没有回关你。你开始任务后，插件还可以按慢速节奏在 x.com 上帮你关注或取关。插件只在 x.com 页面上运行。
 
-### 插件读取哪些数据
+### 插件读取哪些数据（只在你的设备上）
+
+插件为了工作，会在你的浏览器里读取下面这些数据。它们只留在你的设备上，不会发给开发者。
 
 开始扫描后，插件会从你登录状态下 x.com 在浏览器里加载的关注列表中读取：
 
