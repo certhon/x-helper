@@ -15,7 +15,7 @@ Install: unzip the release file, open `chrome://extensions`, turn on Developer m
 - Auto follow: follow people from another account's followers or following list, with a follower range and a limit.
 - Slow pacing: at least 3 seconds between steps, rests between batches, a daily limit. Pauses by itself when X rate-limits or asks for verification.
 - A floating progress panel on x.com with Pause, Resume and Stop. History of every follow and unfollow, exportable as CSV.
-- All data stays in your browser. No server, no analytics.
+- Your data stays in your browser. The only thing sent out is an anonymous usage count (random install ID, event name, version), see [PRIVACY.md](PRIVACY.md).
 
 Aggressive bulk following or unfollowing is against X's rules and can get an account limited. The defaults are slow; use them responsibly.
 
