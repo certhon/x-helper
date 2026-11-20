@@ -31,20 +31,20 @@ Aggressive bulk following or unfollowing is against X's rules and can get an acc
 1. Download the zip from the [latest release](https://github.com/certhon/x-helper/releases/latest) and unzip it.
 2. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and choose the unzipped folder.
 3. Open [x.com](https://x.com) and log in. The extension reads your handle from the page.
-4. Click the X Helper icon in the toolbar, then **Open X Helper**. Everything is on this page: the left menu has a **Content** group and a **Following** group.
+4. On any x.com page, an X Helper ball sits at the top right. Click it to expand the panel, and click **–** to fold it back into the ball. The link at the bottom of the panel (for example **See analytics ↗**, or **Open X Helper to see your data ↗** in the toolbar popup) opens X Helper's own page, where the left menu has a **Content** group and a **Following** group. If that page is already open, X Helper switches to it instead of opening another tab.
 
-The language button in the top right switches between English and 中文.
+The buttons in the top right switch between dark and light theme (dark by default, matching x.com) and between English and 中文. The floating panel on x.com has the same theme button. Both settings apply everywhere.
 
 ### 2. Sync your posts and replies
 
 Analytics, Who replied and To reply all need a sync first. The sync box sits at the top of these three pages.
 
-1. Choose a range: last 7, 30 or 90 days.
+1. Choose a range: the last 1, 3 or 7 days, or **Custom** and type a number of days (up to 30).
 2. Click **Start sync**. An x.com tab opens your profile, then your replies, then a search for replies to you, and scrolls slowly (at least 3 seconds between pages). Keep the tab open while it runs.
-3. The panel at the top right of x.com shows progress, with **Pause** and **Resume**. A 30-day sync usually takes a few minutes.
+3. Click the X Helper ball at the top right of x.com to see progress, with **Pause** and **Resume**. A dot on the ball means something is running or paused. A 30-day sync usually takes a few minutes.
 4. If X stops returning data (rate limit), the sync pauses and keeps what it already read. Wait 10 to 15 minutes, then click **Resume**.
 
-Sync again whenever you want fresh numbers. Syncing on different days also lets the extension show your follower change.
+Sync again whenever you want fresh numbers. Each sync adds to what you already have (up to 120 days), so syncing regularly also fills the 30 and 90 day views and shows your follower change.
 
 ### 3. Analytics
 
@@ -78,7 +78,7 @@ Sync again whenever you want fresh numbers. Syncing on different days also lets 
 
 - **Auto unfollow**: choose who (people who don't follow you back, or everyone you follow) and narrow it by follower count, days since their last post, or verified status. The list on the right updates as you change the filters. Click **Keep** on anyone to leave out, then **Start unfollowing**.
 - **Auto follow**: enter an account and follow people from its followers or following list, with a follower range and a limit, then **Start auto follow**. People you already follow or unfollowed before are skipped.
-- The floating panel on x.com shows progress, with **Pause**, **Resume** and **Stop**. Tasks pause by themselves if X rate-limits or asks for verification.
+- Click the X Helper ball on x.com to see progress, with **Pause**, **Resume** and **Stop**. Tasks pause by themselves if X rate-limits or asks for verification.
 - **History** records every follow and unfollow with the reason. Export it, or follow someone again in one click.
 - **Pacing** sets the gap between steps (at least 3 seconds), the batch size and rest, and the daily limit.
 
@@ -96,20 +96,20 @@ Everything X Helper reads or records stays in your browser (`chrome.storage.loca
 1. 从[最新版本](https://github.com/certhon/x-helper/releases/latest)下载 zip 并解压。
 2. 打开 `chrome://extensions`，开启「开发者模式」，点「加载已解压的扩展程序」，选择解压后的文件夹。
 3. 打开 [x.com](https://x.com) 并登录，插件会从页面上认出你的账号。
-4. 点工具栏里的 X 助手图标，再点「打开 X 助手」。所有功能都在这个页面里，左侧分「内容」和「关注管理」两组。
+4. 在任何 x.com 页面的右上角都有一个 X 助手悬浮球，点它展开面板，点「–」收起成悬浮球。面板底部的链接（比如「查看数据分析 ↗」，工具栏弹窗里是「打开 X 助手，查看数据 ↗」）会打开 X 助手的独立页面，左侧分「内容」和「关注管理」两组。这个页面已经开着的话会直接切过去，不会再开新标签。
 
-右上角的按钮可以切换中文 / English。
+右上角的按钮可以切换深色 / 浅色主题（默认深色，和 x.com 一致）和中文 / English。x.com 上的悬浮面板里也有主题按钮，两个设置在所有页面都通用。
 
 ### 2. 同步帖子和回复
 
 「数据分析」「回复我的人」「待回复」都要先同步，同步栏在这三页的最上面。
 
-1. 选同步范围：最近 7、30 或 90 天。
+1. 选同步范围：最近 1、3、7 天，或选「自定义」输入天数（最长 30 天）。
 2. 点「开始同步」。插件会在一个 x.com 标签页里依次打开你的主页、回复页和「回复你的」搜索结果，慢慢往下滚，每翻一页至少隔 3 秒。同步时别关这个标签页。
-3. x.com 右上角的悬浮面板会显示进度，可以暂停、继续。同步 30 天一般几分钟。
+3. 点 x.com 右上角的 X 助手悬浮球可以看进度，能暂停、继续；悬浮球上有小点表示有任务在跑或暂停了。同步 30 天一般几分钟。
 4. 如果 X 暂时不返回数据（限流），同步会自动停下，已读到的数据会保留。过 10~15 分钟再点「继续」。
 
-想看最新数据就再同步一次。在不同的日子同步，还能看到粉丝变化。
+想看最新数据就再同步一次。每次同步的数据会和之前的合在一起（最多保留 120 天），所以经常同步，近 30 天、近 90 天也能看全，还能看到粉丝变化。
 
 ### 3. 数据分析
 
@@ -143,7 +143,7 @@ Everything X Helper reads or records stays in your browser (`chrome.storage.loca
 
 - 「自动取关」：选择取关对象（没回关你的人，或你关注的所有人），可以按粉丝数、多少天没发帖、是否认证筛选。改条件时右边名单会实时更新，不想取关的点「不取关」，然后点「开始取关」。
 - 「自动关注」：输入一个账号，从他的粉丝或他关注的人里关注，可以设粉丝数区间和本次上限，然后点「开始自动关注」。已经关注的、以前取关过的会跳过。
-- x.com 上的悬浮面板显示进度，可以暂停、继续、停止。X 提示限流或要求验证时，任务会自动暂停。
+- 点 x.com 上的 X 助手悬浮球看进度，可以暂停、继续、停止。X 提示限流或要求验证时，任务会自动暂停。
 - 「操作记录」记下每次关注和取关的原因，可以导出，误取关的可以一键重新关注。
 - 「节奏设置」可以改每步间隔（不低于 3 秒）、每批数量和休息时间、每天上限。
 
